@@ -1,0 +1,58 @@
+{
+	"@context": "http://schema.org/",
+	"@type": "Dataset",
+	"@id": "https://digitalcollections.library.maastrichtuniversity.nl/api/item_sets/14",
+	"identifier": "https://digitalcollections.library.maastrichtuniversity.nl/api/item_sets/14",
+	"name": "Pierre Kemp Collection",
+	"license": "https://creativecommons.org/licenses/by/4.0/",
+	"publisher": {
+		"@type": "Organization",
+		"@id": "https://viaf.org/viaf/197381225/",
+		"name": "Maastricht University Library"
+	},
+	"description": "A special division of the inheritance collection at the Maastricht University Library is the personal collection of the Maastricht poet Pierre Kemp (1886-1967), loaned to the library in 1994 by the Pierre Kemp Foundation.",
+	"inLanguage": "en",
+	"creator": {
+		"@type": "Organization",
+		"@id": "http://www.viaf.org/viaf/197381225",
+		"name": "Maastricht University Library"
+	},
+	"version": "1.0.0",
+	"keywords": [
+		"Pierre Kemp",
+		"Special collection",
+		"Pierre Kemp Stichting"
+	],
+	"genre": [
+		"Literature",
+		"Visual Art"
+	],
+	"spatialCoverage": "Maastricht",
+	"temporalCoverage": "1931-1966",
+	"includedInDataCatalog": "Special Collections Maastricht University",
+	"distribution": [
+		{
+			"@type": "DataDownload",
+			"contentUrl": "https://digitalcollections.library.maastrichtuniversity.nl/api/items?site_id=1",
+			"encodingFormat": [
+				"application/ld+json"
+			],
+			"name": "REST-API",
+			"license": "https://creativecommons.org/licenses/by/4.0/",
+			"description": "Pierre Kemp Collection as JSON-LD download from Omeka S REST API",
+			"inLanguage": "en"
+		},
+		{
+			"@type": "DataDownload",
+			"contentUrl": "https://data.netwerkdigitaalerfgoed.nl/MaastrichtUniversityLibrary/Pierre-Kemp-Omeka-S/sparql/Pierre-Kemp-Omeka-S",
+			"encodingFormat": [
+				"application/sparql-query"
+			],
+			"name": "SPARQL-endpoint",
+			"license": "https://creativecommons.org/licenses/by/4.0/",
+			"description": "SPARQL endpoint for the Pierre Kemp Collection",
+			"inLanguage": "en"
+		}
+	],
+	"landingPage": "https://digitalcollections.library.maastrichtuniversity.nl/s/kemp"
+}
