@@ -30,6 +30,9 @@
 	"spatialCoverage": "Maastricht",
 	"temporalCoverage": "1931-1966",
 	"includedInDataCatalog": "Special Collections Maastricht University",
+	"mainEntityOfPage": [
+		"https://digitalcollections.library.maastrichtuniversity.nl/s/kemp"
+	],
 	"distribution": [
 		{
 			"@type": "DataDownload",
@@ -53,6 +56,5 @@
 			"description": "SPARQL endpoint for the Pierre Kemp Collection",
 			"inLanguage": "en"
 		}
-	],
-	"landingPage": "https://digitalcollections.library.maastrichtuniversity.nl/s/kemp"
+	]
 }
