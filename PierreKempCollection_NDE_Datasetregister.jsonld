@@ -10,14 +10,14 @@
 		"@id": "https://viaf.org/viaf/197381225/",
 		"name": "Maastricht University Library"
 	},
-	"description": "A special division of the inheritance collection at the Maastricht University Library is the personal collection of the Maastricht poet Pierre Kemp (1886-1967), loaned to the library in 1994 by the Pierre Kemp Foundation.",
+	"description": "A special division of the inheritance collection at the Maastricht University Library is the personal collection of the Maastricht poet Pierre Kemp (1886-1967), loaned to the library in 1994 by the Pierre Kemp Foundation. The collection contains digitised representations of handwritten letters, manuscripts, drawings, a Liber Amicorum, physical objects (a desk, a cabinet and an egg decorated by him with a poem) and books from Kemp's personal collection. Many of his books also have museological value because of the margin notes and because the poet himself ordered that they be covered in specially coloured flypaper.",
 	"inLanguage": "en",
 	"creator": {
 		"@type": "Organization",
-		"@id": "http://www.viaf.org/viaf/197381225",
+		"@id": "http://viaf.org/viaf/197381225",
 		"name": "Maastricht University Library"
 	},
-	"version": "1.0.0",
+	"version": "1.1.0",
 	"keywords": [
 		"Pierre Kemp",
 		"Special collection",
@@ -54,6 +54,66 @@
 			"name": "SPARQL-endpoint",
 			"license": "https://creativecommons.org/licenses/by/4.0/",
 			"description": "SPARQL endpoint for the Pierre Kemp Collection",
+			"inLanguage": "en"
+		}
+		,
+		{
+			"@type": "DataDownload",
+			"contentUrl": "https://data.netwerkdigitaalerfgoed.nl/MaastrichtUniversityLibrary/Pierre-Kemp-Omeka-S/download.trig.gz",
+			"encodingFormat": [
+				"application/trig"
+			],
+			"name": "Triply datadump (TriG)",
+			"license": "https://creativecommons.org/licenses/by/4.0/",
+			"description": "Graph(s) downloaded from triple store (TriG format)",
+			"inLanguage": "en"
+		}
+		,
+		{
+			"@type": "DataDownload",
+			"contentUrl": "https://data.netwerkdigitaalerfgoed.nl/MaastrichtUniversityLibrary/Pierre-Kemp-Omeka-S/download.nt.gz",
+			"encodingFormat": [
+				"application/n-triples"
+			],
+			"name": "Triply datadump (N-triples)",
+			"license": "https://creativecommons.org/licenses/by/4.0/",
+			"description": "Graph(s) downloaded from triple store (N-triples format)",
+			"inLanguage": "en"
+		}
+		,
+		{
+			"@type": "DataDownload",
+			"contentUrl": "https://data.netwerkdigitaalerfgoed.nl/MaastrichtUniversityLibrary/Pierre-Kemp-Omeka-S/download.nq.gz",
+			"encodingFormat": [
+				"application/n-quads"
+			],
+			"name": "Triply datadump (N-quads)",
+			"license": "https://creativecommons.org/licenses/by/4.0/",
+			"description": "Graph(s) downloaded from triple store (N-quads format)",
+			"inLanguage": "en"
+		}
+		,
+		{
+			"@type": "DataDownload",
+			"contentUrl": "https://data.netwerkdigitaalerfgoed.nl/MaastrichtUniversityLibrary/Pierre-Kemp-Omeka-S/download.ttl.gz",
+			"encodingFormat": [
+				"text/turtle"
+			],
+			"name": "Triply datadump (Turtle)",
+			"license": "https://creativecommons.org/licenses/by/4.0/",
+			"description": "Graph(s) downloaded from triple store (Turtle format)",
+			"inLanguage": "en"
+		}
+		,
+		{
+			"@type": "DataDownload",
+			"contentUrl": "https://data.netwerkdigitaalerfgoed.nl/MaastrichtUniversityLibrary/Pierre-Kemp-Omeka-S/download.jsonld.gz",
+			"encodingFormat": [
+				"application/ld+json"
+			],
+			"name": "Triply datadump (JSON-LD)",
+			"license": "https://creativecommons.org/licenses/by/4.0/",
+			"description": "Graph(s) downloaded from triple store (JSON-LD format)",
 			"inLanguage": "en"
 		}
 	]
