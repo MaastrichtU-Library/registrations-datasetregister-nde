@@ -8,7 +8,13 @@
 	"publisher": {
 		"@type": "Organization",
 		"@id": "https://viaf.org/viaf/197381225/",
-		"name": "Maastricht University Library"
+		"name": "Maastricht University Library",
+		"alternateName": "Universiteitsbibliotheek Maastricht",
+		"contactPoint": {
+			"@type": "ContactPoint",
+			"name": "UB Linked Open Data",
+			"email": "ub-lod@maastrichtuniversity.nl"
+		}
 	},
 	"description": "One of the most fascinating loners in twentieth-century Dutch poetry is Maastricht-born Pierre Kemp (1886-1967). In 1956 he was awarded the Constantijn Huygens Prize, followed in 1958 by the P.C. Hooft Prize. Maastricht University Library manages a large part of his personal estate. The collection contains digitised representations of handwritten letters, manuscripts, drawings, a Liber Amicorum, physical objects (a desk, a cabinet and an egg decorated by him with a poem) and books from Kemp's personal collection. Many of his books also have museological value because of the margin notes and because the poet himself ordered that they be covered in specially coloured flypaper.",
 	"inLanguage": "en",

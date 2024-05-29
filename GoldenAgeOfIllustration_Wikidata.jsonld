@@ -8,7 +8,12 @@
 	"publisher": {
 		"@id": "https://www.wikidata.org/",
 		"@type": "Organization",
-		"name": "Wikidata"
+		"name": "Wikidata",
+		"contactPoint": {
+			"@type": "ContactPoint",
+			"name": "UB Linked Open Data",
+			"email": "ub-lod@maastrichtuniversity.nl"
+		}
 	},
 	"description": "Bijzondere collectie van de universiteitsbibliotheek Maastricht",
 	"inLanguage": "en",
