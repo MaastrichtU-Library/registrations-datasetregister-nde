@@ -1,0 +1,52 @@
+{
+	"@context": "http://schema.org/",
+	"@type": "Dataset",
+	"@id": "https://n2t.net/ark:/27364/d18jZzz",
+	"identifier": "https://n2t.net/ark:/27364/d18jZzz",
+	"name": "Anatomical atlases",
+	"license": "https://creativecommons.org/licenses/by/4.0/",
+	"publisher": {
+		"@type": "Organization",
+		"@id": "https://viaf.org/viaf/197381225/",
+		"name": "Maastricht University Library"
+	},
+	"description": "Anatomical atlases, including those by Vesalius, Loder, and Albinus",
+	"inLanguage": "en",
+	"creator": {
+		"@type": "Organization",
+		"@id": "http://viaf.org/viaf/197381225",
+		"name": "Maastricht University Library",
+		"contactPoint": {
+			"@type": "ContactPoint",
+			"name": "UB Linked Open Data"
+		}
+	},
+	"version": "1.0.0",
+	"keywords": [
+		"Anatomy",
+		"Atlas",
+		"Vesalius",
+		"Loder",
+		"Albinus",
+		"Human anatomy",
+		"Early works"
+	],
+	"genre": [
+		" Anatomical atlases"
+	],
+	"temporalCoverage": "1650-1900",
+	"includedInDataCatalog": "Special Collections Maastricht University",
+	"distribution": [
+		{
+			"@type": "DataDownload",
+			"contentUrl": "https://digitalcollections.library.maastrichtuniversity.nl/api/items?item_set_id=3151",
+			"encodingFormat": [
+				"application/ld+json"
+			],
+			"name": "REST-API",
+			"license": "https://creativecommons.org/licenses/by/4.0/",
+			"description": "Anatomical Atlases Collection as JSON-LD download from Omeka S REST API",
+			"inLanguage": "en"
+		}
+	]
+}
