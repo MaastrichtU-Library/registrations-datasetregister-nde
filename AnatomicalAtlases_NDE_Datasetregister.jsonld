@@ -1,14 +1,20 @@
 {
-	"@context": "http://schema.org/",
+	"@context": "https://schema.org/",
 	"@type": "Dataset",
-	"@id": "https://n2t.net/ark:/27364/d18jZzz",
-	"identifier": "https://n2t.net/ark:/27364/d18jZzz",
+	"@id": "https://n2t.net/ark:/27364/d1CggmR",
+	"identifier": "https://n2t.net/ark:/27364/d1CggmR",
 	"name": "Anatomical atlases",
 	"license": "https://creativecommons.org/licenses/by/4.0/",
 	"publisher": {
 		"@type": "Organization",
 		"@id": "https://viaf.org/viaf/197381225/",
-		"name": "Maastricht University Library"
+		"name": "Maastricht University Library",
+		"alternateName": "Universiteitsbibliotheek Maastricht",
+		"contactPoint": {
+			"@type": "ContactPoint",
+			"name": "UB Linked Open Data",
+			"email": "ub-lod@maastrichtuniversity.nl"
+		}
 	},
 	"description": "Anatomical atlases, including those by Vesalius, Loder, and Albinus",
 	"inLanguage": "en",
@@ -18,7 +24,8 @@
 		"name": "Maastricht University Library",
 		"contactPoint": {
 			"@type": "ContactPoint",
-			"name": "UB Linked Open Data"
+			"name": "UB Linked Open Data",
+			"email": "ub-lod@maastrichtuniversity.nl"
 		}
 	},
 	"version": "1.0.0",
@@ -36,6 +43,9 @@
 	],
 	"temporalCoverage": "1650-1900",
 	"includedInDataCatalog": "Special Collections Maastricht University",
+		"mainEntityOfPage": [
+		"https://n2t.net/ark:/27364/d1CggmR"
+	],
 	"distribution": [
 		{
 			"@type": "DataDownload",
