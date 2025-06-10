@@ -42,7 +42,7 @@
 	"distribution": [
 		{
 			"@type": "DataDownload",
-			"contentUrl": "https://digitalcollections.library.maastrichtuniversity.nl/api/items?site_id=1",
+			"contentUrl": "https://digitalcollections.library.maastrichtuniversity.nl/api/items?item_set_id=14",
 			"encodingFormat": [
 				"application/ld+json"
 			],
